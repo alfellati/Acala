@@ -5,26 +5,26 @@ __metadata:
   version: 6
   cacheKey: 8
 
-"@acala-network/api-derive@npm:6.0.4":
-  version: 6.0.4
-  resolution: "@acala-network/api-derive@npm:6.0.4"
+"@acala-network/api-derive@npm:6.1.0":
+  version: 6.1.0
+  resolution: "@acala-network/api-derive@npm:6.1.0"
   dependencies:
-    "@acala-network/types": 6.0.4
+    "@acala-network/types": 6.1.0
   peerDependencies:
     "@polkadot/api": ^10.9.1
-  checksum: b079d02405d1e9cf3dd98bab284c5d966f30766e20dfb8c818e59c6388668fe78779969b7c6a8dd081085bf3517fd08e0efc3a659b25b484348403f210f209e6
+  checksum: a29227d804e451a26e9011d312fec3d35e872107e2420accd6ba76445eaf603c163150120a0325b851556ef263412ecd668aabba82acb40ef13e30ff4e71d025
   languageName: node
   linkType: hard
 
-"@acala-network/api@npm:~6.0.4":
-  version: 6.0.4
-  resolution: "@acala-network/api@npm:6.0.4"
+"@acala-network/api@npm:~6.1.0":
+  version: 6.1.0
+  resolution: "@acala-network/api@npm:6.1.0"
   dependencies:
-    "@acala-network/api-derive": 6.0.4
-    "@acala-network/types": 6.0.4
+    "@acala-network/api-derive": 6.1.0
+    "@acala-network/types": 6.1.0
   peerDependencies:
     "@polkadot/api": ^10.9.1
-  checksum: 46e09c485e0227461c377fa3c032b3f138d58f084da8fa61119e5cae868ba32ebe2301dc5759512a063863ecfcfa77b99bda57b2392f62badd91547f9106cd6b
+  checksum: 286aa8b219d1255c89f8be8c9af2594192178b78a992b8528e1d0df5dc647f6c02dac291c3fa03025a6a30fc6b9e77a00ac4368191d1f4bd07838e32070a3181
   languageName: node
   linkType: hard
 
@@ -79,12 +79,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@acala-network/types@npm:6.0.4":
-  version: 6.0.4
-  resolution: "@acala-network/types@npm:6.0.4"
+"@acala-network/types@npm:6.1.0":
+  version: 6.1.0
+  resolution: "@acala-network/types@npm:6.1.0"
   peerDependencies:
     "@polkadot/api": ^10.9.1
-  checksum: 39de2159c0973e0a9143752f013154d5527a670c79444394767fd6b3bac07c68dbd2fef344f72c6967f77ce9dc5136f571f65d7e5a4e8f9f1f0daf87f9b8a1be
+  checksum: 52790bf0e75ceaa2cf8533c87182b362b5da6c27055767ac535dafbcc207bd2f5ddfc7a3582d0d14e40cb5b52ef66848222ed620777b6c874c9c9936db2b300e
   languageName: node
   linkType: hard
 
@@ -5606,7 +5606,7 @@ __metadata:
 
 "fsevents@patch:fsevents@~2.3.2#~builtin<compat/fsevents>":
   version: 2.3.2
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=18f3a7"
   dependencies:
     node-gyp: latest
   conditions: os=darwin
@@ -9309,7 +9309,7 @@ __metadata:
 
 "resolve@patch:resolve@^1.10.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.8.1#~builtin<compat/resolve>, resolve@patch:resolve@~1.22.0#~builtin<compat/resolve>":
   version: 1.22.0
-  resolution: "resolve@patch:resolve@npm%3A1.22.0#~builtin<compat/resolve>::version=1.22.0&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.22.0#~builtin<compat/resolve>::version=1.22.0&hash=07638b"
   dependencies:
     is-core-module: ^2.8.1
     path-parse: ^1.0.7
@@ -10456,7 +10456,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "ts-tests@workspace:."
   dependencies:
-    "@acala-network/api": ~6.0.4
+    "@acala-network/api": ~6.1.0
     "@acala-network/bodhi": ~2.7.16
     "@babel/runtime": ^7.21.5
     "@openzeppelin/contracts": 4.9.3
@@ -10596,7 +10596,7 @@ __metadata:
 
 "typescript@patch:typescript@^4.6.3#~builtin<compat/typescript>":
   version: 4.6.3
-  resolution: "typescript@patch:typescript@npm%3A4.6.3#~builtin<compat/typescript>::version=4.6.3&hash=5d3a66"
+  resolution: "typescript@patch:typescript@npm%3A4.6.3#~builtin<compat/typescript>::version=4.6.3&hash=701156"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
