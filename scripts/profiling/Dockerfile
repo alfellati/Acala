@@ -20,7 +20,7 @@ RUN (cd acala && RUSTFLAGS=-g cargo build --release --locked --features with-aca
 
 # =============
 
-FROM debian:bookworm as acala
+FROM debian:12.6 as acala
 LABEL maintainer="hello@acala.network"
 
 RUN apt update && apt install -y linux-perf timelimit
